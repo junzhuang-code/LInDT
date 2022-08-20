@@ -1,0 +1,26 @@
+# The config file for LInDT model
+train_gnn:  # train GNNs
+    data_name: cora  # cora/citeseer/pubmed/amazoncobuy/coauthor
+    model_name: GCN
+    NOISE_RATIO: 0.1
+    NUM_EPOCHS: 200
+    is_trainable: True
+    GPU: 0
+inference:
+    data_name: cora
+    model_name: GCN
+    pert_type: clean  # clean/rdmPert/infoSparse/advAttack
+    TARGET_CLASS: -1
+    attack_type: lf
+    SAMPLE_RATE: 0.1
+    GPU: 0
+    is_inferable: True
+    infer_type: pseudo  # pseudo/noise
+    topo_type: major  # ""/random/major/degree
+    NUM_EPS: 100
+    NUM_RETRAIN: 60
+    WARMUP_STEP: 40
+    is_alert: False
+    is_dynamic_phi: True
+    is_dynamic_alpha: True
+    ALPHA: 0.1
