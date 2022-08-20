@@ -1,3 +1,5 @@
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555)](https://www.linkedin.com/in/jun-zhuang-74800957/)
+[![Twitter](https://img.shields.io/twitter/follow/junzhuang_?style=social&logo=twitter)](https://twitter.com/intent/follow?screen_name=junzhuang_)
 # Robust Node Classification on Graphs: Jointly from Bayesian Label Transition and Topology-based Label Propagation (LInDT)
 
 ### Authors: Jun Zhuang, Mohammad Al Hasan.
