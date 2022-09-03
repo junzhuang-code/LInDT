@@ -55,15 +55,9 @@ Node classification using Graph Neural Networks (GNNs) has been widely applied i
 Please cite our paper if you think this repo is helpful.
 ```
 @article{zhuang2022robust,
-  author={Zhuang, Jun and Al Hasan, Mohammad},
-  year={2022},
-  month={Aug.},
   title={Robust Node Classification on Graphs: Jointly from Bayesian Label Transition and Topology-based Label Propagation},
-  journal={},
-  volume={},
-  number={},
-  pages={},
-  DOI={},
-  url={}
+  author={Zhuang, Jun and Al Hasan, Mohammad},
+  journal={arXiv preprint arXiv:2208.09779},
+  year={2022}
 }
 ```
