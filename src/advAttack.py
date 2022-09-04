@@ -28,7 +28,7 @@ parser.add_argument("--data_name", type=str, default="cora", help="The name of d
                     choices=["cora", "citeseer", "pubmed", "amazoncobuy", "coauthor", "reddit"])
 parser.add_argument("--model_name", type=str, default="GCN", help="The name of GNNs.")  # GCN, SGC, GraphSAGE, GAT
 parser.add_argument("--pert_type", type=str, default="clean", help="The type of pre-perturbations on graphs.",
-                    choices=["clean", "rdmPert", "infoSparse", "advAttack"])
+                    choices=["clean", "infoSparse"])
 parser.add_argument("--TARGET_CLASS", type=int, default=-1, help="targeted attack: class_id; non-targeted attack: -1.")
 parser.add_argument("--attack_type", type=str, default="lf", help="The type of attack for Nettack.",
                     choices=["l", "f", "lf"])
